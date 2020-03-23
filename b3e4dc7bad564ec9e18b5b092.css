@@ -1,0 +1,38 @@
+:root {
+    --sb-black: #19191B;
+    --sb-grey: #82828A;
+    --sb-white: #FFFFFF;
+    --sb-cream: #F5E7E6;
+    --sb-green: #45D5BE;
+    --sb-blue: #0EBAE7;
+    --sb-lightblue: #B7F2FF;
+    --sb-yellow: #FF9A01;
+    --sb-brown: #BC4117;
+    --sb-tan: #FEB096;
+    --sb-red: #FC0001;
+    --sb-pink: #FEB2D2;
+}
+
+@font-face {
+    font-family: 'AZVintageTattoo';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/59639/azvintat-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/59639/azvintat-webfont.woff') format('woff');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: var(--sb-white);
+    color: var(--sb-black);
+    font-family: 'AZVintageTattoo', sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    min-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
